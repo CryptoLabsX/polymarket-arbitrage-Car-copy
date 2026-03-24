@@ -13,7 +13,7 @@
 
 ## The Trader
 
-> Car is one of Polymarket's most decorated wallets — consistently placing in the top rankings across political, sports, and cultural markets. The edge isn't speed. It's conviction sizing and market selection.
+> Car is one of Polymarket's most decorated wallets - consistently placing in the top rankings across political, sports, and cultural markets. The edge isn't speed. It's conviction sizing and market selection.
 
 | Metric | Value |
 |---|---|
@@ -46,12 +46,12 @@ Use **Conservative** for risk disclosure, **Base** for default planning, and **A
 
 Polls Car's wallet every second. When a new `TRADE` event is detected, it:
 
-1. **Checks staleness** — Ignores events older than 24 hours
-2. **Checks price drift** — Skips if current market price has moved more than `0.05` from Car's fill
-3. **Scales your size** — `your_balance ÷ car_balance × car_position_size`
-4. **Places the order** — Submits to Polymarket's CLOB API
-5. **Retries on failure** — Up to 3 attempts before logging a miss
-6. **Records everything** — Full event + execution history in MongoDB
+1. **Checks staleness** - Ignores events older than 24 hours
+2. **Checks price drift** - Skips if current market price has moved more than `0.05` from Car's fill
+3. **Scales your size** - `your_balance ÷ car_balance × car_position_size`
+4. **Places the order** - Submits to Polymarket's CLOB API
+5. **Retries on failure** - Up to 3 attempts before logging a miss
+6. **Records everything** - Full event + execution history in MongoDB
 
 No manual decisions. No watching charts. The bot handles it.
 
@@ -63,7 +63,7 @@ No manual decisions. No watching charts. The bot handles it.
 <summary><strong>Prerequisites</strong></summary>
 
 - Node.js 18+
-- MongoDB — local or [Atlas free tier](https://mongodb.com/atlas)
+- MongoDB - local or [Atlas free tier](https://mongodb.com/atlas)
 - Polygon wallet funded with USDC
 
 </details>
