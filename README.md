@@ -146,6 +146,6 @@ Open a PR for improvements to execution speed, sizing logic, risk controls, or o
 
 **[Car on Polymarket](https://polymarket.com/@Car?tab=activity)** · **[⭐ Star this repo](https://github.com/CryptoLabsX/polymarket-arbitrage-Car-copy)**
 
-ISC © [LemnLabs](https://github.com/CryptoLabsX)
+ISC © [CryptoLabsX](https://github.com/CryptoLabsX)
 
 </div>
