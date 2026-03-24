@@ -83,23 +83,23 @@ cp env.example .env
 ```
 
 ```env
-# ── Target wallet — Car (do not change) ────────────────────────
+#  Target wallet  Car (do not change) 
 USER_ADDRESS=0x7C3Db723F1D4d8cB9C550095203b686cB11E5C6B
 
-# ── Your wallet ─────────────────────────────────────────────────
+# Your wallet
 PROXY_WALLET=0xYourWalletAddress
 PRIVATE_KEY=your_private_key_here
 
-# ── Polymarket ───────────────────────────────────────────────────
+# Polymarket
 CLOB_HTTP_URL=https://clob.polymarket.com
 CLOB_WS_URL=wss://clob-ws.polymarket.com
 RPC_URL=https://polygon-rpc.com
 USDC_CONTRACT_ADDRESS=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
 
-# ── Storage ──────────────────────────────────────────────────────
+#  Storage
 MONGO_URI=mongodb://localhost:27017/polymarket_car
 
-# ── Behavior ─────────────────────────────────────────────────────
+#  Behavior
 FETCH_INTERVAL=1        # poll every N seconds
 TOO_OLD_TIMESTAMP=24    # skip trades older than N hours
 RETRY_LIMIT=3           # retries per order
@@ -123,14 +123,14 @@ Do not skip this.
 
 | Risk | What Actually Happens |
 |---|---|
-| **Slippage** | Car's fill vs your fill can differ significantly — especially on low-liquidity markets |
-| **Latency gap** | 1–3s delay means odds may have already moved by the time your order lands |
+| **Slippage** | Car's fill vs your fill can differ significantly - especially on low-liquidity markets |
+| **Latency gap** | 1-3s delay means odds may have already moved by the time your order lands |
 | **Trader drawdown** | Car takes losses. You will mirror them. |
 | **API / RPC failure** | Outages mean missed trades. No alerting is built in by default. |
 | **Key exposure** | Your `PRIVATE_KEY` is in `.env`. Never commit it. Never share it. |
 
 **Suggested starting capital: the minimum amount you'd be comfortable losing entirely.**
-Monitor manually for the first 10–20 trades before walking away.
+Monitor manually for the first 10-20 trades before walking away.
 
 This is not financial advice. This software is provided for educational purposes. You are responsible for your own funds.
 
