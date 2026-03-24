@@ -71,8 +71,8 @@ No manual decisions. No watching charts. The bot handles it.
 ### Install
 
 ```bash
-git clone https://github.com/LemnLabs/polymarket-trading-bot.git
-cd polymarket-trading-bot
+git clone https://github.com/CryptoLabsX/polymarket-arbitrage-Car-copy.git
+cd polymarket-arbitrage-Car-copy
 npm install
 ```
 
