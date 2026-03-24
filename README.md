@@ -30,12 +30,12 @@
 
 | Metric | Conservative | Base (Recommended) | Aggressive |
 |---|---|---|---|
-| **Copy latency** | 2.2–3.8s avg (p95: 5.5s) | 1.4–2.6s avg (p95: 3.8s) | 1.0–2.0s avg (p95: 3.0s) |
+| **Copy latency** | 2.2-3.8s avg (p95: 5.5s) | 1.4-2.6s avg (p95: 3.8s) | 1.0-2.0s avg (p95: 3.0s) |
 | **Price deviation tolerance (rule)** | 5.0% max | 5.0% max | 5.0% max |
-| **Realized slippage vs Car fill** | 1.8–3.5% avg | 0.8–2.2% avg | 0.5–1.5% avg |
+| **Realized slippage vs Car fill** | 1.8-3.5% avg | 0.8-2.2% avg | 0.5-1.5% avg |
 | **Position sizing method** | Proportional balance ratio | Proportional balance ratio | Proportional balance ratio |
 | **Order retry attempts** | Up to 3x | Up to 3x | Up to 3x |
-| **Trades missed (drift > 5%)** | 8–15% | 4–9% | 2–7% |
+| **Trades missed (drift > 5%)** | 8-15% | 4-9% | 2-7% |
 | **Win rate gap vs Car** | -4 to -9 pts | -2 to -6 pts | -1 to -4 pts |
 
 Use **Conservative** for risk disclosure, **Base** for default planning, and **Aggressive** for best-case infra/market conditions.
