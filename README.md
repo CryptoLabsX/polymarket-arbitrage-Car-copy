@@ -144,8 +144,8 @@ Open a PR for improvements to execution speed, sizing logic, risk controls, or o
 
 <div align="center">
 
-**[Car on Polymarket](https://polymarket.com/@Car?tab=activity)** · **[⭐ Star this repo](https://github.com/LemnLabs/polymarket-trading-bot)**
+**[Car on Polymarket](https://polymarket.com/@Car?tab=activity)** · **[⭐ Star this repo](https://github.com/CryptoLabsX/polymarket-arbitrage-Car-copy)**
 
-ISC © [LemnLabs](https://github.com/LemnLabs)
+ISC © [LemnLabs](https://github.com/CryptoLabsX)
 
 </div>
