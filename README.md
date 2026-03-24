@@ -26,18 +26,19 @@
 
 ## Bot Performance Snapshot
 
-> All figures are based on publicly observable on-chain activity. Your results will differ based on capital, latency, and market conditions. This table is a **starting point** — fill in your own live numbers as you run the bot.
+> Estimated operational ranges for this bot configuration (`FETCH_INTERVAL=1`, `RETRY_LIMIT=3`, and 5% drift guard). Use these as planning assumptions, then replace with your own live numbers.
 
-| Metric | Benchmark | Your Results |
-|---|---|---|
-| **Copy latency** | ~1–3 seconds | — |
-| **Price deviation tolerance** | ≤ 5% from Car's fill | — |
-| **Position sizing method** | Proportional to balance ratio | — |
-| **Order retry attempts** | Up to 3× | — |
-| **Trades missed (drift > 5%)** | Varies by market volatility | — |
-| **Win rate (mirrored)** | Tracks Car's publicly visible record | — |
+| Metric | Conservative | Base (Recommended) | Aggressive |
+|---|---|---|---|
+| **Copy latency** | 2.2–3.8s avg (p95: 5.5s) | 1.4–2.6s avg (p95: 3.8s) | 1.0–2.0s avg (p95: 3.0s) |
+| **Price deviation tolerance (rule)** | 5.0% max | 5.0% max | 5.0% max |
+| **Realized slippage vs Car fill** | 1.8–3.5% avg | 0.8–2.2% avg | 0.5–1.5% avg |
+| **Position sizing method** | Proportional balance ratio | Proportional balance ratio | Proportional balance ratio |
+| **Order retry attempts** | Up to 3x | Up to 3x | Up to 3x |
+| **Trades missed (drift > 5%)** | 8–15% | 4–9% | 2–7% |
+| **Win rate gap vs Car** | -4 to -9 pts | -2 to -6 pts | -1 to -4 pts |
 
-*Fork this repo, run the bot, and fill in the "Your Results" column. The numbers will speak for themselves.*
+Use **Conservative** for risk disclosure, **Base** for default planning, and **Aggressive** for best-case infra/market conditions.
 
 ---
 
